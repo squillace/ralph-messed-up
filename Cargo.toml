@@ -20,7 +20,7 @@ lto = true
 package = "component:http"
 proxy = true
 
-[package.metadata.component.dependencies]
+[package.metadata.component.target.dependencies]
 "wasi:clocks" = { path = "wit/deps/clocks" }
 "wasi:io" = { path = "wit/deps/io" }
 "wasi:random" = { path = "wit/deps/random" }
